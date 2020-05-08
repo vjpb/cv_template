@@ -17,18 +17,18 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/default.css">
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/layout.css">
+   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/media-queries.css">
+   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+	<script src="<?php echo get_bloginfo('template_directory'); ?>/js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="<?php echo get_bloginfo('template_directory'); ?>/shortcut icon" href="favicon.png" >
 
 </head>
 
