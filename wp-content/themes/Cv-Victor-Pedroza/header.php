@@ -28,8 +28,10 @@
 
    <!-- Favicons
 	================================================== -->
-	<link rel="<?php echo get_bloginfo('template_directory'); ?>/shortcut icon" href="favicon.png" >
-<?php wp_head();?>
+   <link rel="<?php echo get_bloginfo('template_directory'); ?>/shortcut icon" href="favicon.png" >
+   
+   <?php wp_head();?>
+
 </head>
 
 <body>

@@ -53,7 +53,7 @@
                <div>
                   <button class="submit">Submit</button>
                   <span id="image-loader">
-                     <img alt="" src="images/loader.gif">
+                     <img alt="" src="<?php echo get_bloginfo('template_directory'); ?>/images/loader.gif">
                   </span>
                </div>
 
