@@ -47,8 +47,8 @@
             <li class="current"><a class="smoothscroll" href="<?php echo get_site_url(); ?>/home">Home</a></li>
             <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/about">About</a></li>
 	         <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/work">Works</a></li>
+            <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/testimonials">Testimonials</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
