@@ -49,7 +49,7 @@
 	         <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/resume">Resume</a></li>
             <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/work">Works</a></li>
             <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <li><a class="smoothscroll" href="<?php echo get_site_url(); ?>/contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
