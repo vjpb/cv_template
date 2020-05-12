@@ -12,8 +12,6 @@
                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
             </ul>
 
             <ul class="copyright">
@@ -23,7 +21,7 @@
 
          </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+         <div id="go-top"><a title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
       </div>
 
