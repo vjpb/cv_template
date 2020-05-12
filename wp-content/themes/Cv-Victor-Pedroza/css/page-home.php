@@ -1,5 +1,28 @@
-<?php /* Template Name: Home */ ?>
+    <?php /* Template Name: Home */ ?>
 
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
-<?php get_footer(); ?>
+        <div class ="my-photo"> 
+          
+            <div class="row banner">
+
+                <div class="banner-text">
+
+                    <h1 class="responsive-headline">¡Hola! soy Victor Pedroza.</h1>
+                    <h3>Soy profesional en <span>Ingenieria de petroleo</span>, <span>desarrolador web</span> y <span>un emprendedor</span> curioso por nuevas tecnologias, estudiando y aprendiendo por mi cuenta para realizar mis metas. <a href="<?php echo get_site_url(); ?>/about">Empieza a desplazarte </a>y lee un poco mas <a href="<?php echo get_site_url(); ?>/about">acerca de mi</a>.</h3>
+                    <hr />
+                    <ul class="social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>      
+</header> <!-- Header End -->
+    
+    <?php get_footer(); ?>
