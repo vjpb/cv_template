@@ -9,7 +9,7 @@
         <div class="row">
 
             <div class="three columns">
-                <img class="profile-pic"  src="<?php echo get_bloginfo('template_directory'); ?>images/profilepic.jpg" alt="" />
+                <img class="profile-pic"  src="<?php echo get_bloginfo('template_directory'); ?>/images/profilepic.jpg" alt="" />
             </div>
 
             <div class="nine columns main-col">

@@ -28,7 +28,7 @@
 
    <!-- Favicons
 	================================================== -->
-   <link rel="<?php echo get_bloginfo('template_directory'); ?>/shortcut icon" href="favicon.png" >
+   <link rel="shortcut icon" href="<?php echo get_bloginfo('template_directory'); ?>/favicon.png" >
    
    <?php wp_head();?>
 
