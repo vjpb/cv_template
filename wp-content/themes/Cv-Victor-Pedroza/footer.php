@@ -37,7 +37,7 @@
    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/waypoints.js"></script>
    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.fittext.js"></script>
    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+   <script src="<?php echo get_bloginfo('template_directory'); ?>/js/init.js"></script>
    <?php wp_footer(); ?>
 </body>
 

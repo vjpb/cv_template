@@ -392,7 +392,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #191919;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -906,7 +906,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
+   padding-top: 150px;
    margin-bottom: 48px;
    color: #303030;
    font-size: 14px;
@@ -993,7 +993,8 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+   background-color: #525252;
+   font-size: 42px;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1001,10 +1002,10 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: white;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: rgb(238, 47, 13); }
+#go-top a:hover { background-color: rgb(96, 87, 85); }
 
