@@ -24,14 +24,9 @@
 
                     <div class="columns contact-details">
 
-                        <h2>Contact Details</h2>
+                        <h2><?php the_field( 'title_2' ) ?></h2>
                         <p class="address">
-                                <span>Jonathan Doe</span><br>
-                                <span>1600 Amphitheatre Parkway<br>
-                                        Mountain View, CA 94043 US
-                                </span><br>
-                                <span>(123)456-7890</span><br>
-                                <span>anyone@website.com</span>
+                                <span><?php the_field( 'content_2' ) ?></span><br>
                         </p>
                     </div>
 
