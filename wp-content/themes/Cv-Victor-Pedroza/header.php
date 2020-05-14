@@ -46,12 +46,9 @@
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
-            <li class="current"><a href="<?php echo get_site_url(); ?>/home">Home</a></li>
-            <li><a href="<?php echo get_site_url(); ?>/about">About</a></li>
-	         <li><a href="<?php echo get_site_url(); ?>/resume">Resume</a></li>
-            <li><a href="<?php echo get_site_url(); ?>/work">Works</a></li>
-            <li><a href="<?php echo get_site_url(); ?>/testimonials">Testimonials</a></li>
-            <li><a href="<?php echo get_site_url(); ?>/contact">Contact</a></li>
+            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+
+         
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
