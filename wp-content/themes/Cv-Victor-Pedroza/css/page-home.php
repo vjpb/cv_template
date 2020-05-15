@@ -8,8 +8,34 @@
 
                 <div class="banner-text">
 
-                    <h1 class="responsive-headline">¡Hola! soy Victor Pedroza.</h1>
-                    <h3>Soy profesional en <span>Ingenieria de petroleo</span>, <span>desarrolador web</span> y <span>un emprendedor</span> curioso por nuevas tecnologias, estudiando y aprendiendo por mi cuenta para realizar mis metas. <a href="<?php echo get_site_url(); ?>/about">Empieza a desplazarte </a>y lee un poco mas <a href="<?php echo get_site_url(); ?>/about">acerca de mi</a>.</h3>
+                    <h1 class="responsive-headline">
+                        <?php the_field ( 'my_name' ) ?>                   
+                    </h1>
+                    <h3>
+                            <?php the_field ( 'text_1' ) ?>
+                        
+                        <span>
+                            <?php the_field ( 'highlighted_text_1' ) ?>
+                        </span>
+
+                            <?php the_field ( 'text_2' ) ?>
+
+                        <span>
+                            <?php the_field ( 'highlighted_text_2' ) ?>
+                        </span>
+
+                            <?php the_field ( 'text_3' ) ?>
+
+                        <span>
+                            <?php the_field ( 'highlighted_text_3' ) ?>
+                        </span>
+
+                            <?php the_field ( 'text_4' ) ?>
+
+                        <span>
+                            <?php the_field ( 'highlighted_text_4' ) ?>
+                        </span>
+                    </h3><!-- Introduction End -->
                     <hr />
                 </div>
             </div>  
