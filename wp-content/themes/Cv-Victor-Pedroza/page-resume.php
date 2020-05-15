@@ -106,8 +106,15 @@
                     <?php $query = new WP_Query( 'cat= 3' ); ?>
                     <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>         
        
-
-                        <li><span class="bar-expand" style="width: <?php the_field( 'porcent' ) ?>%;"></span><em> <?php the_title() ?></em></li>
+                        <li>
+                            <span class="bar-expand" style="width: 
+                                <?php the_field( 'porcent' ) ?>%;">
+                            </span>
+                            <em>
+                                 <?php the_title() ?>
+                            </em>
+                        </li>
+                        
                     <?php endwhile; wp_reset_postdata(); endif; ?>
 
                         <!-- <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
