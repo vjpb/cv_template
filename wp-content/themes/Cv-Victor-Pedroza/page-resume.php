@@ -28,6 +28,7 @@
                                 &bull;
                             </span> 
                             <em class="date">
+                                <?php the_field( 'start_study' ) ?> - 
                                 <?php the_field( 'graduation_date' ) ?>
                             </em>
                         </p>
@@ -52,40 +53,31 @@
         </div>
 
         <div class="nine columns main-col">
+            <?php $query = new WP_Query( 'cat= 6' ); ?>
+            <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>   
 
             <div class="row item">
 
                 <div class="twelve columns">
 
-                    <h3>Awesome Design Studio</h3>
-                    <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+                    <h3> <?php the_field( 'name_work' ) ?> </h3>
+                    <p class="info">
+                        <?php the_field( 'job' ) ?> 
+                        <span>
+                            &bull;
+                        </span> 
+                        <em class="date">
+                            <?php the_field( 'start_date' ) ?> - 
+                            <?php the_field( 'finish_date' ) ?> 
+                            <?php the_field( 'current_job' ) ?>
 
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                        </em>
                     </p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Super Cool Studio</h3>
-                    <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
                     <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                        <?php the_field( 'responsibility' ) ?>
                     </p>
-
                 </div>
+                <?php endwhile; wp_reset_postdata(); endif; ?>
 
             </div> <!-- item end -->
 
@@ -104,10 +96,8 @@
 
         <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
+            <p> 
+                <?php the_field( 'skills_description' ) ?>
             </p>
 
             <div class="bars">
