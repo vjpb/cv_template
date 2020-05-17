@@ -906,39 +906,17 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 150px;
+   padding-top: 60px;
    margin-bottom: 48px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
-/* ------------------------------------------------------------------ */
-/*  Facebook
-/* ------------------------------------------------------------------ */
-footer a .fa-facebook, footer a:visited { color: #031ee7; }
-footer a .fa-facebook:hover, footer a:focus { color: #fff; }
-
-/* ------------------------------------------------------------------ */
-/*  Twitter
-/* ------------------------------------------------------------------ */
-footer a .fa-twitter, footer a:visited { color: #0ac0f7; }
-footer a .fa-twitter:hover, footer a:focus { color: #fff; }
-/* ------------------------------------------------------------------ */
-/*  Google plus
-/* ------------------------------------------------------------------ */
-footer a .fa-google-plus, footer a:visited { color: #f7260a; }
-footer a .fa-google-plus:hover, footer a:focus { color: #fff; }
-/* ------------------------------------------------------------------ */
-/*  LinkedIn
-/* ------------------------------------------------------------------ */
-footer a .fa-linkedin, footer a:visited { color: #25397b; }
-footer a .fa-linkedin:hover, footer a:focus { color: #fff; }
-/* ------------------------------------------------------------------ */
-/*  Instagram
-/* ------------------------------------------------------------------ */
-footer a .fa-instagram, footer a:visited { color: #bb097a; }
-footer a .fa-instagram:hover, footer a:focus { color: #fff; }
+/*  Social icons */
+footer .social-icons{
+   align-items: center;
+}
 
 /* copyright */
 footer .copyright {

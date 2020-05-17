@@ -2,24 +2,17 @@
    ================================================== -->
    <footer>
 
-      <div class="row">
+    
 
-         <div class="twelve columns">
+         <div class="social-icons">
 
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-
-
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Menu') ) : ?> <?php endif; ?>
+          
          </div>
 
          <div id="go-top"><a title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
-      </div>
+     
 
    </footer> <!-- Footer End-->
 
