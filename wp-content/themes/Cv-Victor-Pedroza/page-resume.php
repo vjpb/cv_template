@@ -37,11 +37,6 @@
                         
                     <?php endwhile; wp_reset_postdata(); endif; ?>
 
-                        <!-- <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-                        <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-                        <li><span class="bar-expand css"></span><em>CSS</em></li>
-                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li> -->
                 </ul>
 
             </div><!-- end skill-bars -->
