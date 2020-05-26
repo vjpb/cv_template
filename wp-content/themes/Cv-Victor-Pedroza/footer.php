@@ -10,7 +10,7 @@
           
          </div>
 
-         <div id="go-top"><a title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+         <div id="go-top" class="my-button"><a title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
      
 
@@ -27,6 +27,7 @@
    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.fittext.js"></script>
    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/magnific-popup.js"></script>
    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/init.js"></script>
+   <script src="<?php echo get_bloginfo('template_directory'); ?>/js/top-button.js"></script>
    <?php wp_footer(); ?>
 </body>
 
