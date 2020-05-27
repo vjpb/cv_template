@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 .my-photo {
    position: relative;
-   height: 800px;
+   height: 720px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -39,6 +39,18 @@ body { background: #0f0f0f; }
    text-align: center;
    overflow: hidden;
 }
+@media only screen and (max-width: 480px) {
+   .my-photo {
+   height: 640px;      
+}
+}
+@media only screen and (max-width: 1200px) {
+   .my-photo {
+   height: 635px;      
+}
+}
+
+
 
 /* vertically center banner section */
 .my-photo:before {
@@ -808,9 +820,8 @@ div.wpcf7 {
     background-color: #11ABB0;
 }
 
-/* ------------------------------------------------------------------ */
-/* h. Contact Section Responsive
-/* ------------------------------------------------------------------ */
+
+/* Contact Section Responsive */
 
 
 @media only screen and (max-width: 480px) {
@@ -819,8 +830,6 @@ div.wpcf7 {
       margin: auto;
       text-align: center;
    }
-
-
 }
 @media only screen and (max-width: 767px) {
       div.wpcf7 {
@@ -828,11 +837,8 @@ div.wpcf7 {
       margin: auto;
       text-align: center;
    }
-
-
 }
 
- 
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
@@ -846,34 +852,7 @@ footer {
    text-align: center;
    position: relative;
 }
-/*  Social icons */
-footer .social-icons{
-   align-items: center;
-}
 
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-}
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
 
 /* social links */
 footer .social-links {
@@ -889,7 +868,6 @@ footer .social-links li {
     color: #F06000;
 }
 
-footer .social-links li:first-child { margin-left: 0; }
 
 /* Go To Top Button */
 #go-top {
@@ -924,4 +902,28 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #b4a416; }
+
+/*  Footer section button Responsive*/
+
+@media only screen and (max-width: 480px) {
+   #go-top {
+      top: 480px;
+  
+      
+   }
+}
+@media only screen and (max-width: 767px) {
+   #go-top {
+      top: 400px;
+    
+      
+   }
+}
+@media only screen and (max-width: 1200px) {
+   #go-top {
+      top: 400px;
+     
+      
+   }
+}
 

@@ -2,17 +2,16 @@
    ================================================== -->
    <footer>
 
-    
+      <div class="social-icons">
+         <?php 
+            if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Menu') ) : 
+         ?> 
+         <?php endif; ?>   
+      </div>
 
-         <div class="social-icons">
-
-            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Menu') ) : ?> <?php endif; ?>
-          
-         </div>
-
-         <div id="go-top" class="my-button"><a title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-     
+      <div id="go-top" class="my-button">
+         <a title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+      </div>
 
    </footer> <!-- Footer End-->
 
