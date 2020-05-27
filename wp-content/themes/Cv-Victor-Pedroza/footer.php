@@ -10,7 +10,7 @@
       </div>
 
       <div id="go-top" class="my-button">
-         <a title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+         <a title="Back to Top" class= "up-slow" href="#home"><i class="icon-up-open"></i></a>
       </div>
 
    </footer> <!-- Footer End-->

@@ -27,7 +27,27 @@
         $('body').css({ 'width': $(window).width() })
    });
 
+/*----------------------------------------------------*/
+/*	Smooth scroll
+------------------------------------------------------ */
 
+   $(document).ready(function(){
+      $(".up-slow").on('click', function(event) {
+    
+        if (this.hash !== "") {
+          event.preventDefault();
+    
+          var hash = this.hash;
+    
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 700, function(){
+       
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
