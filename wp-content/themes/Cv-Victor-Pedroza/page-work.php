@@ -17,11 +17,11 @@
       
                     
                 <?php $query = new WP_Query( 'cat= 10' ); ?>
-                <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();?> 
+                <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); $count1++;?> 
                     <div class="columns portfolio-item">
                         <div class="item-wrap">
 
-                            <a href="#modal-01" title=""> 
+                            <a href="#modal-0<?php echo $count1 ?>" title=""> 
                                 <img alt="" src="<?php the_field( 'picture_1' ) ?>">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
