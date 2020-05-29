@@ -2,7 +2,7 @@
 
     <?php get_header(); ?>
 
-        <div class ="my-photo"> 
+        <div class ="my-photo" style="background-image: url('<?php the_field ( 'background' ) ?>');"> 
           
             <div class="row banner">
 
