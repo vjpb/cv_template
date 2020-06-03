@@ -854,20 +854,6 @@ footer {
 }
 
 
-/* social links */
-footer .social-links {
-   margin: 18px 0 30px 0;
-   padding: 0;
-   font-size: 30px;
-}
-footer .social-links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 42px;
-    color: #F06000;
-}
-
 
 /* Go To Top Button */
 #go-top {
