@@ -1,4 +1,14 @@
 <?php /* Template Name: Testimonial */ ?>
+<!--
+ * Template Name:  page-testimonial.php
+ *
+ * This template works to complete the custom fields of the testimonial page. This template receive the information with the help of the "Custom Fields" plugin. The variables used are: 
+ Still working on it, may be will be ready for Version 2.0.
+ *
+ * @CV-Template
+ * @since version 1.0 -->
+
+
 <?php get_header(); ?>
 <!-- Call-To-Action Section
 ================================================== -->

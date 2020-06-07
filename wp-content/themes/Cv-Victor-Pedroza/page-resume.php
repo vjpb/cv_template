@@ -1,4 +1,17 @@
 <?php /* Template Name: Resume */ ?>
+ <!--
+ * Template Name:  page-resume.php
+ *
+ * This template works to complete the custom fields of the resume page. This template receive the information with the help of the "Custom Fields" plugin. The variables used are: 
+    ---Skills
+ - the_field(skills_description): for the skills description, the_field() using loop for to add skill title, the_field(porcent): using a loop to add the expandable bars.
+    ---Education
+ - the_field( 'university' ): using loop for to add educations fields, the_field('degree'): using loop to add degrees fields; the_field( 'start_study' ), the_field( 'graduation_date' ), the_field( 'studying' ): using to set data of start, finish or current, the_field( 'description' ): using to write description about study.
+    ---Education
+ - the_field( 'name_work' ): using loop for to add work fields, the_field('job'): using loop to add jobs fields; the_field( 'start_date' ), the_field( 'finish_date' ), the_field( 'current_job' ): using to set data of start, finish or current, the_field( 'responsibility' ): using to write description about work.
+ *
+ * @CV-Template
+ * @since version 1.0 -->
 
 <?php get_header(); ?>
 
@@ -70,6 +83,7 @@
                             <em class="date">
                                 <?php the_field( 'start_study' ) ?> - 
                                 <?php the_field( 'graduation_date' ) ?>
+                                <?php the_field( 'studying' ) ?>
                             </em>
                         </p>
                         <p>

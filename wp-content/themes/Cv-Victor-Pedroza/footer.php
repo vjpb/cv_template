@@ -1,4 +1,9 @@
-   <!-- footer
+  <!--This template works to conect all the files .js with WordPress using php code and add the footer social icons in all the pages.
+ *
+ * @CV-Template
+ * @since version 1.0 
+ * -->
+  <!-- footer
    ================================================== -->
    <footer>
 

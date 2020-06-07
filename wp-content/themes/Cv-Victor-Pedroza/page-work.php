@@ -1,4 +1,14 @@
 <?php /* Template Name: Work */ ?>
+<!--
+ * Template Name:  page-work.php
+ *
+ * This template works to complete the custom fields of the work page. This template receive the information with the help of the "Custom Fields" plugin and loop with conditon "i++" for modals. The variables used are: 
+ - the_field ('work_title'): section title, the_field(picture_1): add pictures of work, the_field( 'picture_title_1' ): to add title for the picture, the_field( 'description_of_work_1' ): to add  description of work.
+ - the_field(picture_1): add pictures of work, the_field( 'picture_title_1' ): to add title for the picture, the_field( 'text_description_1' ): to add description for the picture, the_field( 'tags_1' ): to add  tags of work, the_field( 'url_description_1' ): to add URL of the work.
+ *
+ * @CV-Template
+ * @since version 1.0 -->
+
 <?php get_header(); ?>
 <!-- Portfolio Section
 ================================================== -->
@@ -29,7 +39,7 @@
                                             <?php the_field( 'picture_title_1' ) ?>
                                         </h5>
                                         <p>
-                                            <?php the_field( 'kind_of_work_1' ) ?>
+                                            <?php the_field( 'description_of_work_1' ) ?>
                                         </p>
                                     </div>
                                 </div>

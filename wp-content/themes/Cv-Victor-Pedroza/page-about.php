@@ -1,4 +1,12 @@
 <?php /* Template Name: About */ ?>
+ <!--
+ * Template Name:  page-about.php
+ *
+ * This template works to complete the custom fields of the about page. This template receive the information with the help of the "Custom Fields" plugin. The variables used are:
+  - the_field(profile_pic): the profile picture, the_field(title_1): the title, the_field(content_1): description , the_field(title_2) and the_field(content_2): for contact details, the_field(donwnload): to choose the file to download  . 
+ *
+ * @CV-Template
+ * @since version 1.0 -->
 
 <?php get_header(); ?>
 
