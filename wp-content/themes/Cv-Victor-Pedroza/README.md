@@ -40,6 +40,11 @@ This theme was download from:
 https://www.themezy.com/demos/151-ceevee-free-responsive-website-template
 
 
+**Ceevee Media Queries**
+ **url: styleshout.com**
+     **03-18-2014**
+
+
 
 
 
