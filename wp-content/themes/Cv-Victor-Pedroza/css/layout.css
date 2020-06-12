@@ -30,27 +30,58 @@ body { background: #0f0f0f; }
 
 .my-photo {
    position: relative;
-   height: 990px;
+   height: 728px;
    min-height: 500px;
    width: 100%;
-   background: #161415 no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+   background: #161415 no-repeat;
+   background-position: center;
+   background-size: cover;
+	-webkit-background-size: cover;
    text-align: center;
    overflow: hidden;
 }
-@media only screen and (max-width: 480px) {
+/*  Background picture section responsive*/
+
+@media only screen and (max-width: 2000PX) {
    .my-photo {
-   height: 640px;      
-}
+      height: 1000px;      
+   }
 }
 @media only screen and (max-width: 1500px) {
    .my-photo {
-   height: 720px;      
+      height: 820px;      
+   }
 }
+@media only screen and (max-width: 1026px) {
+   .my-photo {
+      height: 1360px;      
+   }
 }
-
-
+@media only screen and (max-width: 824px) {
+   .my-photo {
+      height: 785px;      
+   }
+}
+@media only screen and (max-width: 768px) {
+   .my-photo {
+      height: 1024px;      
+   }
+}
+@media only screen and (max-height: 736px) and (orientation: landscape){
+   .my-photo {
+   height: 725px;      
+   }
+}
+@media only screen and (max-width: 418px) {
+   .my-photo {
+   height: 728px;      
+   }
+}
+@media only screen and (max-width: 321px) {
+   .my-photo {
+   height: 572px;      
+   }
+}
 
 
 
@@ -238,7 +269,7 @@ ul#nav li.current_page_item a { color: #F06000; }
 }
 
 #resume h1 span {
-   border-bottom: 3px solid #b4a416;
+   border-bottom: 3px solid #1B998B;
    padding-bottom: 6px;
    font-size: 27px;
 }
@@ -305,92 +336,11 @@ ul#nav li.current_page_item a { color: #F06000; }
    top: 0;
 
    margin: 0;
-  	background: #313131;
+  	background: #F46036;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
-}
-
-.photoshop {
-   width: 0px;
-  	/* -moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease; */
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 0px;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 0px;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -858,8 +808,7 @@ div.wpcf7 {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 60px;
-   margin-bottom: 48px;
+   padding: 10px 0;
    color: #303030;
    font-size: 14px;
    text-align: center;
@@ -871,8 +820,8 @@ footer {
 /* Go To Top Button */
 #go-top {
 	position: fixed;
-	top: 650px;
-   left: 90%;
+	top: 820px;
+   left: 98%;
    margin-left: -30px;
    
 }
@@ -904,15 +853,42 @@ footer {
 
 /*  Footer section button Responsive*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1500px) {
    #go-top {
-      top: 480px;
+      top: 855px;    
+      left: 97%;
+   }
+}
+@media only screen and (max-width: 1025px) {
+   #go-top {
+      top: 850px; 
+      left: 95%;   
    }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 768px) {
    #go-top {
-      top: 400px;    
+      top: 640px;    
+      left: 96%;
    }
 }
+@media only screen and (max-height: 736px) and (orientation: landscape){
+   #go-top {
+      top: 240px;
+      left: 95%;
+   }
+}
+@media only screen and (max-width: 418px) {
+   #go-top {
+      top: 480px;
+      left: 92%;
+   }
+}
+@media only screen and (max-width: 376px) {
+   #go-top {
+      top: 500px; 
+      left: 91%;   
+   }
+}
+
 
