@@ -820,7 +820,7 @@ footer {
 /* Go To Top Button */
 #go-top {
 	position: fixed;
-	top: 820px;
+	top: 810px;
    left: 98%;
    margin-left: -30px;
    
@@ -855,11 +855,11 @@ footer {
 
 @media only screen and (max-width: 1500px) {
    #go-top {
-      top: 855px;    
+      top: 655px;    
       left: 97%;
    }
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
    #go-top {
       top: 850px; 
       left: 95%;   
@@ -868,13 +868,13 @@ footer {
 
 @media only screen and (max-width: 768px) {
    #go-top {
-      top: 640px;    
+      top: 840px;    
       left: 96%;
    }
 }
 @media only screen and (max-height: 736px) and (orientation: landscape){
    #go-top {
-      top: 240px;
+      top: 560px;
       left: 95%;
    }
 }

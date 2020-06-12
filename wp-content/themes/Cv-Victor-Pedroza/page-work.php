@@ -73,7 +73,9 @@
                     <span class="categories"><i class="fa fa-tag"></i><?php the_field( 'tags_1' ) ?> </span>
                 </div>
                 <div class="link-box">
-                    <a href="<?php the_field( 'url_1' ) ?> " target="_blank"><?php the_field( 'url_description_1' ) ?> </a>
+                    <a href="<?php the_field( 'url_1' ) ?> " target="_blank"><?php the_field( 'url_description_1' ) ?> </a> 
+                    - 
+                    <a href="<?php the_field( 'url_2' ) ?> " target="_blank"><?php the_field( 'url_description_2' ) ?> </a>
                     <a class="popup-modal-dismiss">Close</a>
                 </div>
             </div><!-- modal-01 End -->
