@@ -359,6 +359,10 @@
 
 @media only screen and (max-width: 480px) {
 
+   .my-photo {
+      height:85vh;
+   }
+
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }

@@ -36,7 +36,7 @@ header#home{
 .my-photo {
   position: relative;
   height: 970px;
-  min-height: 500px;
+  min-height: 300px;
   width: 100%;
   background: #161415 no-repeat;
   background-position: center;
@@ -185,7 +185,7 @@ ul#nav li.current_page_item a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  height: 960px;
+  min-height: 90vh;
   
 }
 
@@ -356,6 +356,8 @@ ul#nav li.current_page_item a {
   background: #191919;
   padding-top: 90px;
   padding-bottom: 60px;
+  min-height: 90vh;
+
 }
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
@@ -855,6 +857,7 @@ footer {
   font-size: 14px;
   text-align: center;
   position: relative;
+  height: 10vh;
 }
 
 /* Go To Top Button */
