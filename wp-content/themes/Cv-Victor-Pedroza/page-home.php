@@ -30,6 +30,5 @@
                 </div>
             </div>  
         </div>      
-</header> <!-- Header End -->
     
     <?php get_footer(); ?>

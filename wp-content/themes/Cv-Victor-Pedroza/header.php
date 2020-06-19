@@ -49,19 +49,17 @@
 
       <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+            Show navigation
+         </a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">
+            Hide navigation
+         </a>
 
          <ul id="nav" class="nav">
             <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-
-         
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
 
-      
-
-
-
-  
+   </header> <!-- Header End -->
